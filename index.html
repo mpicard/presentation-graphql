@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GraphQL</title>
+  <link rel="stylesheet" href="lib/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="lib/reveal.js/css/theme/solarized.css" id="theme">
+  <!-- <link rel="stylesheet" href="lib/tomorrow-night.css"> -->
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+  <script src="lib/reveal.js/lib/js/head.min.js"></script>
+  <style>
+    .reveal pre {
+      box-shadow: none;
+      width: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="reveal">
+    <div class="slides">
+
+      <section>
+        <h1>GraphQL!</h1>
+        <p>(Please stop talking about GraphQL)</p>
+      </section>
+
+      <section>
+        It's a query language! Not a framework.
+
+        <small>Java, Go, Python, NodeJS, etc...</small>
+      </section>
+
+      <section>
+        Anatomy of GraphQL
+
+        <ul>
+          <li>Query</li>
+          <li>Schema</li>
+          <li>Resolver Functions</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>
+          Mocking your server is easy.
+        </h3>
+
+        <p>Typed schema allows for easy DI of fake data for any type!</p>
+      </section>
+
+      <section>
+        FAQ
+      </section>
+
+      <section>
+        <h2>
+          Does my data need to be a graph?
+        </h2>
+        <p>
+          No! Any database, relational or not works with GraphQL
+        </p>
+      </section>
+
+      <section>
+
+      </section>
+
+    </div>
+  </div>
+
+  <script src="lib/reveal.js/js/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      transition: 'concave',
+      dependencies: [{
+        src: 'lib/reveal.js/plugin/highlight/highlight.js',
+        async: true,
+        callback: function() { hljs.initHighlightingOnLoad(); }
+      }]
+    });
+  </script>
+</body>
+
+</html>
